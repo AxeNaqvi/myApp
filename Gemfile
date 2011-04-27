@@ -33,4 +33,6 @@ gem 'sqlite3'
  group :test do
   gem 'rspec'
   gem 'webrat'
+  gem 'autotest'
+  gem 'redgreen'
  end
