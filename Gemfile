@@ -32,7 +32,11 @@ gem 'sqlite3'
 
  group :test do
   gem 'rspec'
+  gem 'rspec-rails'
   gem 'webrat'
+  gem 'spork'
+  gem 'factory_girl_rails'
   gem 'autotest'
-  gem 'redgreen'
+  gem 'autotest-rails-pure'
+#  gem 'redgreen'
  end
