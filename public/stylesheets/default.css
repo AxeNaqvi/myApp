@@ -2,9 +2,9 @@ a:link
 {
     color: #ffffff;
     text-decoration: none;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius:5px;
+/*    -moz-border-radius: 5px;*/
+/*    -webkit-border-radius: 5px;*/
+/*    border-radius:5px;*/
     padding: 0.2em;
 }
 
@@ -56,9 +56,9 @@ nav ul li a:hover
   /* Chrome, Safari:*/
     background: -webkit-gradient(linear, left top, right bottom, from(#555555), to(#222222));
 /*  background-color : #f5f5f5;*/
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius:5px;
+/*    -moz-border-radius: 5px;*/
+/*    -webkit-border-radius: 5px;*/
+/*    border-radius:5px;*/
     font-size:12px;
 }
 
