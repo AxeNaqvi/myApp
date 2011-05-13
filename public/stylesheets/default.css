@@ -24,14 +24,14 @@ a:visited
     color: #ffffff;
 }
 
-nav
+.nav
 {
     float: right;
     white-space: nowrap;
     clear:both;
 }
 
-nav ul li
+.nav ul li
 {
     list-style-type: none;
     display: inline-block;
@@ -41,7 +41,7 @@ nav ul li
 
 }
 
-nav ul li a:hover
+.nav ul li a:hover
 {
     color:#ff0000;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#222222', endColorstr='#555555'); /* for IE */
