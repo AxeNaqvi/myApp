@@ -1,4 +1,6 @@
 MyApp::Application.routes.draw do
+  get "users/new"
+
   get "pages/home"
   get "pages/contact"
   get "pages/about"
@@ -9,7 +11,10 @@ MyApp::Application.routes.draw do
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
-
+    match '/' => 'pages#home'
+    match '/about' => 'pages#about'
+    match '/contact' => 'pages#contact'
+    match '/signup' => 'users#new'
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
   # This route can be invoked with purchase_url(:id => product.id)
@@ -55,7 +60,7 @@ MyApp::Application.routes.draw do
 #<<<<<<< HEAD
 #   root :to => "pages/home"
 #=======
-#  # root :to => "pages/home"
+    root :to => "pages#home"
 #>>>>>>> static-pages
 
   # See how all your routes lay out with "rake routes"
